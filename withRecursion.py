@@ -9,5 +9,5 @@ def fibonacci(n, second_last, last):
         second_last = last
         return fibonacci(n-1, second_last, new_last)
  
-n= input("For nth Fibonacci Number, Enter n: ")
-fibonacci(n)
+n= int(input("For nth Fibonacci Number, Enter n: "))
+print(fibonacci(n,0,1))
